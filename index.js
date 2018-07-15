@@ -18,7 +18,9 @@ function nameToAttributes (list) {
 
 function nameToAttributes(array){
     return array.map(function(name){
-      const First=name.split( ' ')[0]
+      const First=name.split( ' ')[0];
+      const Last = name.split(' ')[1];
       
+      retu
     })
 }
