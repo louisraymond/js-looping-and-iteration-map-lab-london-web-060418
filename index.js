@@ -2,7 +2,7 @@
 
 function lowerCaseDrivers(array){
   return array.map( function(name){
-    name.toLowerCase
+    name.toLowerCase()
   });
 }
 
