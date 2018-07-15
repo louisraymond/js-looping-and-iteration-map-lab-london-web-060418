@@ -3,7 +3,7 @@
 function lowerCaseDrivers(array){
   return array.map( function(name){
     name.toLowerCase
-  })
+  });
 }
 
 function nameToAttributes (list) {
@@ -17,5 +17,7 @@ function nameToAttributes (list) {
 
 
 function nameToAttributes(array){
-    return
+    return array.map(function(name){
+      
+    })
 }
