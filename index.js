@@ -21,6 +21,6 @@ function nameToAttributes(array){
       const First=name.split( ' ')[0];
       const Last = name.split(' ')[1];
       
-      retu
+      return {firstName: First, lastName: Last}
     })
 }
