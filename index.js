@@ -2,7 +2,7 @@
 
 function lowerCaseDrivers(array){
   return array.map( function(name){
-    name.toLowerCase()
+   return  name.toLowerCase()
   });
 }
 
@@ -20,5 +20,11 @@ function nameToAttributes(array){
 function attributesToPhrase(drivers) {
   return drivers.map(function (driver) {
     return `${driver.name} is from ${driver.hometown}`;
+  });
+}
+
+function lowerCaseDrivers (list) {
+  return list.map(function (driver) {
+    return driver.toLowerCase();
   });
 }
