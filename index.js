@@ -18,6 +18,7 @@ function nameToAttributes (list) {
 
 function nameToAttributes(array){
     return array.map(function(name){
+      const First=name.split( ' ')[0]
       
     })
 }
